@@ -155,21 +155,21 @@ img {
 
 /*Rows*/
 #selection_screen .poster{
-  top:184px;
+  top:190px;
 }
 
 /*Columns*/
 #selection_screen .poster:nth-child(1){
-  left: 88px;
+  left: 90px;
 }
 #selection_screen .poster:nth-child(2){
-  left: 528px;
+  left: 530px;
 }
 #selection_screen .poster:nth-child(3){
-  left: 969px;
+  left: 970px;
 }
 #selection_screen .poster:nth-child(4){
-  left: 1408px;
+  left: 1410px;
 }
 
 #fullscreen_video {
