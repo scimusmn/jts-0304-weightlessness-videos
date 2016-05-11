@@ -1,8 +1,8 @@
 {
   "name": "jts_daily_life_videos",
   "dependencies": {
-    "jquery": "~2.1.1",
-    "video-js": "~4.10.2",
+    "jquery": "latest",
+    "video-js": "latest",
     "gsap": "~1.15.0"
   }
 }
