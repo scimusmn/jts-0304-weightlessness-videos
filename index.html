@@ -15,11 +15,16 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Javascript -->
-    <script>window.$ = window.jQuery = require('./js/vendor/jquery/dist/jquery.min.js');</script>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script src="js/vendor/jquery/dist/jquery.min.js"></script> 
+    <!--<script>window.$ = window.jQuery = require('./js/vendor/jquery/dist/jquery.min.js');</script>-->
     <script src=  "js/vendor/video-js/dist/video.min.js"></script>
     <script src=  "js/vendor/gsap/src/minified/TweenMax.min.js"></script>
     <script src=  "js/Screensaver.js"></script>
     <script src=  "js/main.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
 
   </head>
   <body>
